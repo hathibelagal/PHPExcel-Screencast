@@ -32,10 +32,3 @@ $myWorksheet->getStyle('C1')->getFont()->setBold(true);
 
 $writer = PHPExcel_IOFactory::createWriter($mySpreadsheet, 'Excel2007');
 $writer->save('countries.xlsx');
-
-
-
-
-
-
-
